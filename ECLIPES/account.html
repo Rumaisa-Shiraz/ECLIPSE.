@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account | Eclipse </title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+         <div class="logo">
+         <img src="my logo.png" width="135px" height="90px"></div>
+         <nav>
+           
+           <ul>
+             <li><a href="index.html"> Home </a></li>
+             <li><a href="gallery.html"> Gallery  </a></li>
+             <li><a href="product.html"> Products </a></li>
+             <li><a href="aboutus.html"> About us </a></li>
+             <li><a href="account.html"> Account </a></li>
+             <li><a href="contact.html"> Contact </a></li>
+           </ul>
+         </nav>
+         <img src="cart icon.png" width="40px" height="40px" >
+        </div>
+        </div>
+    <header class="accounnt header">
+       
+    <h1 class="h1"> My Account</h1>
+    <p>Welcome back to your account</p>
+    </header>
+    <!--main content-->
+    <main class="account-container">
+       
+        <!---main account area-->
+    <div class="account-content">
+        <!---profile section-->
+        <section id="profile" class="account-section">
+            <h2> Profile Information</h2>
+            <form class="account-form">
+            <div class="form-group">
+               <label for="name">Full Name</label> 
+               <input type="text" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label> 
+                <input type="email" id="email" placeholder="@gmail.com">
+             </div>
+             <div class="form-group">
+                <label for="Phone">Phone Number</label> 
+                <input type="tel" id="Phone" placeholder="+1(212)xxxxxxx">
+             </div>
+             <button type="=submit" class="save-btn">Save Changes</button>
+            </form>
+        </section>
+        <!--order section-->
+        <section id="orders" class="account-section">
+            <h2> Order History</h2>
+            <div class="order-list">
+                <div class="order-item">
+                    <p><strong>Order #12345</strong> - Delivered on 08/20/2024</p>
+                    <p>Total: $399.00</p>
+                    <a href="#" class="view-order">View Details</a>
+                </div>
+                <div class="order-item">
+                    <p><strong>Order #12785</strong> - Delivered on 07/09/2024</p>
+                    <p>Total: $479.00</p>
+                    <a href="#" class="view-order">View Details</a>
+                </div>
+            </div>
+        </section>
+        <!--Address section-->
+    <section id="addresses" class="account-section">
+        <h2 class="h2"> Saved Addresses</h2>
+        <div class="address-list">
+            <div class="address-item">
+                <p><strong>Home</strong></p>
+                <p>123 Shadow Lane</p>
+            <p>New York, NY 10001</p>
+            <p>United States</p>
+            <a href="#" class="edit-address">Edit</a>
+            </div>
+            <div class="address-item">
+                <p><strong>Work</strong></p>
+                <p>123 Eclipse Avenue</p>
+            <p>Brooklyn, NY 15021</p>
+            <p>United States</p>
+            <a href="#" class="edit-address">Edit</a>   
+            </div>
+        </div>
+        <button class="add-address">Add New Address</button>
+    </section>
+    <!--wish list-->
+    <section id="wishlist" class="account-section">
+        <h2> Wishlist</h2>
+        <div class="wishlist-grid">
+           <div class="wishlist-item">
+            <img src="top 111.png" height="200px" width="350px">
+            <p> Off-Shoulder Top</p>
+            <p>$90.00</p>
+            <button class="move-to-cart">move-to-cart</button>
+           </div>
+           <div class="wishlist-item">
+            <img src="shoes 1..png" height="200px" width="350px">
+            <p> Chunky Boots</p>
+            <p>$82.00</p>
+            <button class="move-to-cart">move-to-cart</button>
+           </div>
+        </div>
+    </section>
+    <!--setting Section-->
+   <section id="setting" class="account-section">
+    <h2>Account Setting</h2>
+    <form class="account-form">
+        <div class="form-group">
+            <label for="password">Change Password</label>
+            <input type="password" id="password" name="password" placeholder="New Password">
+        </div>
+        <div class="form-group">
+            <label for="notifications">Email Notifications</label>
+            
+        </div>
+        <button type="submit" class="save-btn">Save Changes</button>
+    </form>
+   </section>
+</div>
+    </main>
+  <!-- Footer -->
+  <footer class="account-footer">
+    <p>&copy; 2023 Eclipse. All rights reserved.</p>
+  </footer>  
+</body>
+</html>
